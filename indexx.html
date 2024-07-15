@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dress Game Outfit Builder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <button id="toggleSidebar">☰</button>
+    <div class="sidebar" id="sidebar">
+        <h3>Catalogue</h3>
+        <img src="images/top1.png" class="draggable" alt="Shirt" draggable="true">
+        <img src="images/pant1.png" class="draggable" alt="Pants" draggable="true">
+        <img src="images/shoe1.png" class="draggable" alt="Shoes" draggable="true">
+    </div>
+    <div class="main-window" id="dropArea">
+        <h3>Outfit Builder</h3>
+        <p>Drag and drop clothes here to create an outfit</p>
+    </div>
+    <button id="postButton">Post Outfit</button>
+    <div class="feed" id="feed">
+        <h3>Feed</h3>
+    </div>
+    <!-- Modal for post details -->
+    <div id="modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
